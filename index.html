@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+ <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <section class="top-bar">
+        <ul class="the-icons">
+            <li class="twitter-li"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="git-network"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+      <ul>
+        <li class="mid1"><span><ion-icon name="call"></ion-icon><a href=" +23469701389"> +234 6970 1389</a></span></li>
+        <li class="mid"><span><ion-icon name="mail"></ion-icon> <a href="mailto:adeotihameed90@gmail.com">adeotihameed90@gmail.com</a></span></li>
+      </ul>
+
+      <button class="btn btn1">Request a contact</button>
+    </section>
+    <nav>
+        <div class="logo">
+            <a class=""><img src="./styles/images/load.svg" alt="">OLAYINKA</a>
+        </div>
+            
+        <div id="toggle" class="toggle">
+                <ion-icon class="hideMenu" onclick="hideMenu()" name="close"></ion-icon>
+                
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Page</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Contact</a></li>
+                <li class="buy-now"><a href="">Buy Now</a></li>
+            </ul>
+        
+        </div>
+     
+        <div class="search-icon icons">
+            <div class="fas fa-search" id="search-btn"></div>
+           
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search" class="fas fa-search"></label>
+        </div>
+
+        <ion-icon class="main" onclick="showMenu()" name="menu"></ion-icon>
+    </nav>
+    <section class="home">
+        <div class="content">
+            <p class="creative">We are creative</p>
+            <h3>creative digital agencytive digital agency</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ullam soluta qui itaque nobis praesentium adipisci? Id odit esse voluptatum!</p>
+            <div>
+                <a href="" class="hero-btn btn">Read more</a>
+                <a href="" class="btn">Request a consult</a>
+            </div>
+        </div>
+    </section>
+    <section class="row" >
+        
+            <div class="course-col">
+               <div>
+                <ion-icon name="jet"></ion-icon>
+                <h3>Construction</h3>
+               </div>
+                <p>
+                    our commitment to excellence extends to a comprehensive array of construction services 
+                </p>
+            </div>
+            <div class="course-col">
+                    <div>
+                        <ion-icon name="magnet"></ion-icon>
+                        <h3>Construction</h3>
+                    </div>
+                     <p>
+                         our commitment to excellence extends to a comprehensive array of construction services desi
+                     </p>
+            </div>
+            <div class="course-col">
+                    <div>
+                        <ion-icon name="alarm"></ion-icon>
+                     <h3>Construction</h3>
+                    </div>
+                     <p>
+                         our commitment to excellence extends to a comprehensive array of construction services de
+                     </p>
+            </div>
+        
+
+  <!-- <div class= "buttomBlur"> </div> -->
+    </section>
+
+    <section class="about-us">
+        <div class="row row-2">
+            <div class="about-col">
+                <h1>About Us</h1>
+                <h2>7 months with about achieving better results for our clients</h2>
+                <p>
+                    At KABMOD, we take pride in our rich history of delivering exceptional projects and supplying high-quality materials that meet the diverse needs of our clients. From residential developments to commercial constructions, we bring expertise, reliability, and innovation to every endeavor.ensuring timely project delivery, and upholding the highest standards of quality and safety. 
+                    Whether you're embarking on a new construction project or in need of top-grade building materials, KABMOD is here to support you every step of the way
+                </p>
+                <a class="hero-btn" href="./contact.html">Read More</a>
+            </div>
+            <div class="about-col">
+                <img src="./styles/images/PIC (1).png" alt="">
+            </div>
+        </div>
+     
+      </section>
+
+      <section class="services">
+        <h1>Our services</h1>
+        <div class="line"></div>
+
+        <div class="row row-services">
+            <div class="facilities-col">
+                <img src="./styles/images/img 4.jpg" alt="">
+                <div class="image-text">
+                    <ion-icon name="volume-off"></ion-icon>
+                    <p>User Experience</p>
+                </div>
+            </div>
+            <div class="facilities-col">
+                <img src="./styles/images/laptop.jpg" alt="">
+                <div class="image-text">
+                    <ion-icon name="jet"></ion-icon>
+                    <p>Creative Design</p>
+                </div>
+            </div>
+            <div class="facilities-col">
+                <img src="./styles/images/img 4.jpg" alt="">
+                <div class="image-text">
+                    <ion-icon name="logo-usd"></ion-icon>
+                    <p>Website Ready</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      
+
+    <script>
+        var navLinks = document.getElementById("toggle");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+        let searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+}
+    </script>
+     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
